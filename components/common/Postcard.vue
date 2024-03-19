@@ -4,7 +4,14 @@
     <h2 class="font-bold text-3xl mb-3">{{ title }}</h2>
     <div class="">
       <!-- Post image -->
-    
+      <div class="relative my-5" style="padding-top: 30.25%;">
+        <iframe
+            class="absolute top-0 left-0 lg:w-2/3 w-full h-full"
+            src="https://www.youtube.com/embed/-9M6hheqpSw?autoplay=1&vq=hd1080"
+            frameborder="0"
+            allowfullscreen
+        ></iframe>
+    </div>
 
         <div class="space-x-4 py-5">
             <!-- Repository link -->
