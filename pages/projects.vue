@@ -14,7 +14,7 @@
                         image="https://i.imgur.com/FTGxLDk.png"
                         description="A full-stack web application that replicates the functionality of ChatGPT, built with React, Tailwind CSS, Node.js, Express, MongoDB, and the OpenAI API. Users can create custom conversations, assign predefined personalities to the AI chatbot, and engage in natural language interactions. The responsive UI provides a smooth experience across devices, with features like conversation history and creation. This project showcases proficiency in modern web development technologies and integration with cutting-edge AI services."
                         repositoryLink="https://github.com/bennettlarue/ChatGPT-Clone"
-                        demoLink=null
+                        videoLink="https://www.youtube.com/embed/-9M6hheqpSw?autoplay=1&vq=hd1080"
                         :technologies="['React', 'Express.js', 'MongoDB', 'Node.js', 'Tailwind CSS', 'OpenAI API']"
                     ></Postcard>
 

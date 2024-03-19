@@ -7,7 +7,7 @@
       <div class="relative my-5" style="padding-top: 30.25%;">
         <iframe
             class="absolute top-0 left-0 lg:w-2/3 w-full h-full"
-            src="https://www.youtube.com/embed/-9M6hheqpSw?autoplay=1&vq=hd1080"
+            :src="videoLink"
             frameborder="0"
             allowfullscreen
         ></iframe>
@@ -46,8 +46,9 @@ export default {
     // Link to the repository
     repositoryLink: String,
     // Link to the demo
-    demoLink: String,
+    videoLink: String,
     // Array of technologies used in the post
+
     technologies: Array,
   },
   methods: {
