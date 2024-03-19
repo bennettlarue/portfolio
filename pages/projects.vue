@@ -12,8 +12,8 @@
                     <Postcard
                         title="ChatGPT Clone"
                         image="https://i.imgur.com/FTGxLDk.png"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                        repositoryLink=null
+                        description="A full-stack web application that replicates the functionality of ChatGPT, built with React, Tailwind CSS, Node.js, Express, MongoDB, and the OpenAI API. Users can create custom conversations, assign predefined personalities to the AI chatbot, and engage in natural language interactions. The responsive UI provides a smooth experience across devices, with features like conversation history and creation. This project showcases proficiency in modern web development technologies and integration with cutting-edge AI services."
+                        repositoryLink="https://github.com/bennettlarue/ChatGPT-Clone"
                         demoLink=null
                         :technologies="['React', 'Express.js', 'MongoDB', 'Node.js', 'Tailwind CSS', 'OpenAI API']"
                     ></Postcard>
@@ -21,20 +21,13 @@
                     <Postcard
                         title="CommitPal"
                         image="https://i.imgur.com/3xfaepe.png"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                        repositoryLink=null
+                        description="A full-stack web application designed to assist developers in setting and achieving coding goals through gamification. Built with React, Tailwind CSS, Node.js, Express, and MongoDB. Users can define a target number of commits for their public repositories and earn points for completing their self-imposed goals. The app integrates with the GitHub API for accurate commit tracking and features a responsive design for seamless usage across devices. This project showcases expertise in web development, third-party API integration, and creating engaging user experiences through gamification principles."
+                        repositoryLink="https://github.com/bennettlarue/CommitPal"
                         demoLink=null
                         :technologies="['React', 'Express.js', 'MongoDB', 'Node.js', 'Tailwind CSS', 'GitHub API']"
                     ></Postcard>
 
-                    <Postcard
-                        title="Mount Echo"
-                        image="https://i.imgur.com/3xfaepe.png"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                        repositoryLink=null
-                        demoLink=null
-                        :technologies="['React', 'Express.js', 'MongoDB', 'Node.js', 'Tailwind CSS', 'GitHub API']"
-                    ></Postcard>
+                   
                 </div>
             </div>
         </div>

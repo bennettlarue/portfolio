@@ -5,21 +5,25 @@ export default {
   components: {
     Nav // Registering the Nav component
   },
+
+  mounted() {
+    console.log(this.$theme.value); // Access global value
+  }
   
 };
 </script>
 
 <template>
-    <div style="font-family: Syne;" class="text-white items-end h-screen">
+    <div style="font-family: Syne;" class="text-white items-end h-screen bg">
         <div class="p-8 rounded-md m-auto">
             <Nav/>
 
             <div class="pt-14 lg:pr-20 fixed lg:bottom-52 md:bottom-52 lg:left-20">
-              <div class="fade-in-text" style="--fade-in-duration: 1s;">
+              <div class="fade-in-text" style="--fade-in-duration: 0.5s;">
                 <h1 class="gradientText font-bold text-5xl py-2"> Hi, I'm Ben Smith👋</h1>
               </div>
-              <h2 class="text-3xl fade-in-text" style="--fade-in-duration: 2s;">an aspiring software developer.</h2>
-              <p class="text-2xl pt-5 fade-in-text" style="font-family: Roboto; --fade-in-duration: 2.5s;">
+              <h2 class="text-3xl fade-in-text" style="--fade-in-duration: 1s;">an aspiring software developer.</h2>
+              <p class="text-2xl pt-5 fade-in-text" style="font-family: Roboto; --fade-in-duration: 1s;">
                 Here, you can take a look my
                 <span class="gradientLink cursor-pointer font-bold">
                   <router-link to="/projects">projects</router-link>

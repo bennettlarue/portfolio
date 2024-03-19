@@ -1,5 +1,5 @@
 html {
-    background: #181b21;
+    background: #121212;
 }
 
 .fade-in-text {
@@ -51,7 +51,7 @@ html {
   
   .gradientText {
     
-    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    background: linear-gradient(103deg, rgb(137, 247, 234) 7.3%, rgb(102, 117, 241) 100.2%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -63,7 +63,8 @@ html {
 
   .gradientLink {
     
-    background: linear-gradient(to right, #7f7fd5, #7f7fd5, #91eae4);
+    background: linear-gradient(103deg, rgb(137, 247, 234) 7.3%, rgb(102, 117, 241) 100.2%);
+
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -126,4 +127,14 @@ html {
 
 .btn-hover.color-2 {
     background-image: linear-gradient(109.6deg, rgb(157, 75, 199) 11.2%, rgb(119, 81, 204) 83.1%);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #181b21;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(103deg, rgb(137, 247, 234) 7.3%, rgb(102, 117, 241) 100.2%);
+  border-radius: 10px;
 }

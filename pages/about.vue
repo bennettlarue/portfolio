@@ -23,17 +23,50 @@ export default {
                     <!-- Profile Image and Name -->
                     <div class="col-span-1 flex justify-center lg:pt-10">
                         <div class="space-y-2 lg:pb-8 pb-7 fade-in-text" style="--fade-in-duration: 0.5s;">
-                            <img src="https://i.imgur.com/ZSWRyd6.jpg" width="180" class="rounded-full border"/>
+                            <img src="https://i.imgur.com/r4N79ep.jpeg" width="180" class="rounded-full"/>
                             <h1 class="text-2xl flex justify-center">Ben Smith</h1>
                         </div>
                     </div>
                     <!-- Description -->
                     <div class="col-span-3 space-y-3 lg:pl-14">
-                        <p class="text-lg fade-in-text flex justify-start" style="--fade-in-duration: 0.5s; font-family: Roboto;">
-                            <!-- Add your description here -->
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. sunt in culpa qui officia deserunt mollit anim id est laborum. sunt in culpa qui officia deserunt mollit anim id est laborum. sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>                        
+                        <div class="text-lg fade-in-text flex justify-start" style="--fade-in-duration: 0.5s; font-family: Roboto;">
+                            <div class="space-y-3">
+                                <div>
+                                Since high school, I have nurtured a passion for programming. 
+                                It started with learning to create basic Python programs and building web pages using HTML and CSS. 
+                                Now, as a senior majoring in computer science, I have expanded my knowledge of web development through practical projects. 
+                                These projects have solidified my grasp of JavaScript, HTML, and CSS, and Node.js. 
+                                Additionally, I have utilized web frameworks like React and Next.js, server frameworks such as Express.js, and database platforms like MongoDB, 
+                                further enriching my understanding of web development. 
+                                
+                            </div>
+                            <div>
+                                My university coursework has provided me with a solid foundation in computer science fundamentals. I have developed a comprehensive understanding of programming principles, SQL databases, cybersecurity, computer architecture, and graphics programming. This well-rounded knowledge has enabled me to approach complex technical challenges with a multifaceted perspective and a deeper appreciation for the intricate interplay of various domains within the field of computer science.
+                            </div> 
+                            </div>
+                        </div>                  
                     </div>
+
+                    <!-- Education -->
+                    <div class="col-span-4 pt-3">
+                        <div class="fade-in-text" style="--fade-in-duration: 0.5s;">
+                            <h1 class="text-3xl gradientText font-bold">Education</h1>
+                        </div>
+                        <div class="fade-in-text flex justify-start" style="--fade-in-duration: 0.5s;">
+                            <div class="space-y-3">
+                                <div>
+                                    <h2 class="text-xl font-bold">Bachelor of Science in Computer Science</h2>
+                                    <div class="flex space-x-3">
+                                        <p class="text-lg">Mount Saint Mary's University</p>
+                                        <p class="text-lg pl">|</p>
+                                        <p class="text-lg">Graduation: May 2024</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Skills -->
                     <div class="col-span-4 pt-3">
                         <div class="fade-in-text" style="--fade-in-duration: 0.5s;">
@@ -48,6 +81,7 @@ export default {
                             <span class="bg-blue-500 p-2 rounded-sm text-lg">Python</span>
                             <span class="bg-cyan-600 p-2 rounded-sm text-lg">Tailwind</span>
                             <span class="bg-gray-500 p-2 rounded-sm text-lg">Express.js</span>
+                            <span class="bg-purple-500 p-2 rounded-sm text-lg">Next.js</span>
                             <span class="bg-emerald-500 p-2 rounded-sm text-sm">Vue</span>
                             <span class="bg-red-400 p-2 rounded-sm text-sm">Java</span>
                             <span class="bg-orange-500 p-2 rounded-sm text-sm">MySQL</span>
