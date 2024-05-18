@@ -34,7 +34,7 @@ export default {
                 </span>,
                 view my
                 <span class="gradientLink cursor-pointer">
-                  <router-link to="/resume">resume</router-link>
+                  <a href="https://lime-ella-67.tiiny.site/" target="_blank">resume</a>
                 </span>,
                 or get in
                 <span class="gradientLink cursor-pointer">
